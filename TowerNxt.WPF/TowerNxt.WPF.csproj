@@ -1,26 +1,26 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
-  <PropertyGroup>
-    <OutputType>WinExe</OutputType>
-    <TargetFramework>net8.0-windows</TargetFramework>
-    <Nullable>enable</Nullable>
-    <ImplicitUsings>enable</ImplicitUsings>
-    <UseWPF>true</UseWPF>
-    <Platforms>x64</Platforms>
-  </PropertyGroup>
+	<PropertyGroup>
+		<OutputType>WinExe</OutputType>
+		<TargetFramework>net8.0-windows</TargetFramework>
+		<Nullable>enable</Nullable>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<UseWPF>true</UseWPF>
+		<Platforms>x64</Platforms>
+	</PropertyGroup>
 
-  <ItemGroup>
-    <PackageReference Include="Stride.Core.Presentation.Wpf" Version="4.2.0.2122" />
-  </ItemGroup>
+	<ItemGroup>
+		<PackageReference Include="Stride.Core.Presentation.Wpf" Version="4.2.0.2122" />
+	</ItemGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\Aries3D.Core\Aries3D.Core.csproj" />
-  </ItemGroup>
+	<ItemGroup>
+		<ProjectReference Include="..\Aries3D.Core\Aries3D.Core.csproj" />
+	</ItemGroup>
 
-  <ItemGroup>
-    <Compile Update="AriesView.xaml.cs">
-      <SubType>Code</SubType>
-    </Compile>
-  </ItemGroup>
+	<ItemGroup>
+		<Compile Update="AriesView.xaml.cs">
+			<SubType>Code</SubType>
+		</Compile>
+	</ItemGroup>
 
 </Project>
