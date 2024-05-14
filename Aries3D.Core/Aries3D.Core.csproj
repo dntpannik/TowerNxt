@@ -1,27 +1,26 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
-  <PropertyGroup>
-    <TargetFramework>net8.0</TargetFramework>
-    <ImplicitUsings>enable</ImplicitUsings>
-    <Nullable>enable</Nullable>
-    <Platforms>x64</Platforms>
-  </PropertyGroup>
+	<PropertyGroup>
+		<TargetFramework>net8.0-windows</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+	</PropertyGroup>
 
-  <ItemGroup>
-    <PackageReference Include="Stride.CommunityToolkit" Version="1.0.0-preview.39" />
-    <PackageReference Include="Stride.Core.Assets.CompilerApp" Version="4.2.0.2122" IncludeAssets="build;buildTransitive" />
-    <PackageReference Include="Stride.Engine" Version="4.2.0.2122" />
-    <PackageReference Include="Stride.Graphics" Version="4.2.0.2122" />
-  </ItemGroup>
+	<ItemGroup>
+		<PackageReference Include="Stride.CommunityToolkit" Version="1.0.0-preview.39" />
+		<PackageReference Include="Stride.Core.Assets.CompilerApp" Version="4.2.0.2122" IncludeAssets="build;buildTransitive" />
+		<PackageReference Include="Stride.Engine" Version="4.2.0.2122" />
+		<PackageReference Include="Stride.Graphics" Version="4.2.0.2122" />
+	</ItemGroup>
 
 	<ItemGroup>
 		<Folder Include="Assets\" />
 	</ItemGroup>
 
 	<ItemGroup>
-	  <None Update="small_uv.png">
-	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-	  </None>
+		<None Update="small_uv.png">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</None>
 	</ItemGroup>
 
 </Project>

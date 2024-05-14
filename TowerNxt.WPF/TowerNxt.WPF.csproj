@@ -6,21 +6,10 @@
 		<Nullable>enable</Nullable>
 		<ImplicitUsings>enable</ImplicitUsings>
 		<UseWPF>true</UseWPF>
-		<Platforms>x64</Platforms>
 	</PropertyGroup>
 
 	<ItemGroup>
-		<PackageReference Include="Stride.Core.Presentation.Wpf" Version="4.2.0.2122" />
-	</ItemGroup>
-
-	<ItemGroup>
-		<ProjectReference Include="..\Aries3D.Core\Aries3D.Core.csproj" />
-	</ItemGroup>
-
-	<ItemGroup>
-		<Compile Update="AriesView.xaml.cs">
-			<SubType>Code</SubType>
-		</Compile>
+		<ProjectReference Include="..\Aries3D.WPF\Aries3D.WPF.csproj" />
 	</ItemGroup>
 
 </Project>

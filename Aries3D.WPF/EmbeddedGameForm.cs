@@ -2,7 +2,7 @@
 using Stride.Core.Presentation.Interop;
 using Stride.Games;
 
-namespace TowerNxt.WPF;
+namespace Aries3D.WPF;
 
 internal class EmbeddedGameForm : GameForm
 {

@@ -6,7 +6,7 @@ using Stride.Core.Presentation.Controls;
 using Stride.Engine;
 using Stride.Games;
 
-namespace TowerNxt.WPF;
+namespace Aries3D.WPF;
 
 /// <summary>
 /// Interaction logic for AriesView.xaml
